@@ -1,0 +1,19 @@
+{
+  "name": "demo-package",
+  "version": "1.0.0",
+  "description": "A Demo Package For Voltox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhkhansahab/demo-package.git"
+  },
+  "author": "Hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhkhansahab/demo-package/issues"
+  },
+  "homepage": "https://github.com/mhkhansahab/demo-package#readme"
+}

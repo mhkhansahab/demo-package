@@ -1,6 +1,6 @@
 {
-  "name": "demo-package",
-  "version": "1.0.0",
+  "name": "demo-package-hamza",
+  "version": "1.0.1",
   "description": "A Demo Package For Voltox",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-export const login = (clientID, callback) => {
+const login = (clientID, callback) => {
   if (typeof callback !== "function") return;
   let dataRecieved = false;
   const uri = `http://localhost:3000/?next=${window?.location?.origin}&clientId=${clientID}`;

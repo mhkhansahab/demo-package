@@ -1,10 +1,12 @@
 {
   "name": "demo-package-hamza",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A Demo Package For Voltox",
-  "main": "index.js",
+  "main": "final.module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "moduleBuild": "esbuild module.js --bundle --target=es6 --outfile=final.module.js",
+    "vanillaBuild": "esbuild vanilla.js --bundle --target=es6 --outfile=final.vanilla.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mhkhansahab/demo-package/issues"
   },
-  "homepage": "https://github.com/mhkhansahab/demo-package#readme"
+  "homepage": "https://github.com/mhkhansahab/demo-package#readme",
+  "dependencies": {
+    "esbuild": "^0.15.5"
+  }
 }
